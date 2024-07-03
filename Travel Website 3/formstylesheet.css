@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+    
+    .lato-regular {
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+  
+  
+  #navbar{
+    background: #F4F6EF;
+  }
+
+  #logo{
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+  }
+  #logo span{
+    color: #327D81;
+  }
+  .navbar-toggler span{
+    color: #327D81;
+  }
+  .navbar-nav{
+    margin-left: 20px;
+  }
+  .nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+  }
+  .nav-item .nav-link:hover{
+    background: #327D81;
+    color: white;
+  }
+  #navbar form button{
+    background: #327D81;
+    color: white;
+    border: none;
+  }
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #13294B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .form2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .footer{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
